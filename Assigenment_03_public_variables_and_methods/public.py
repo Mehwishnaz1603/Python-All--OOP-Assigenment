@@ -6,11 +6,9 @@
 class Car:
     def __int_(self, brand):
         self.brand = brand
-        def start(self):
+    def start(self):
             print( f"The {self.brand} car is started.")
 if __name__ == "__main":
     car1=Car( "Toyota")
     print(car1.brand)
     car1.start()
-        
-
