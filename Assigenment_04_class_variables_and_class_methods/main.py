@@ -9,7 +9,7 @@ class Bank():
     def change_bank_name (clas, name):
         clas.bank_name = name
 
-if __name__ =="__main":
+if __name__ =="__main__":
     user1 = Bank()
     user2 = Bank()
     print("Before changing bank name:")
@@ -17,6 +17,7 @@ if __name__ =="__main":
     print(user2.bank_name)
 
     Bank.change_bank_name("XYZ")
+    print("After changing bank name:")
     print(Bank.bank_name)         # Output: XYZ
 
 
