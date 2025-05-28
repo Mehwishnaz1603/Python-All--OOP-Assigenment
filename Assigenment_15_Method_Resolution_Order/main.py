@@ -1,5 +1,5 @@
 #--------Assigenment 15---------#
-
+# Method Resolution Order (MRO):
 # Create four classes:
 #     A with a method show(),
 #     B and C that inherit from A and override show(),

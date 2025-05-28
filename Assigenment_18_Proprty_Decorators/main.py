@@ -18,7 +18,6 @@ class Product:
         else:
             self._price = value
 
-
     @price.deleter
     def price(self):
         print("Deleting price...")
