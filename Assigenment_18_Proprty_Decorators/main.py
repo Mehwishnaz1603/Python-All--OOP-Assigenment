@@ -23,14 +23,11 @@ class Product:
         print("Deleting price...")
         del self._price
 
-
-product = Product(100)
-
+product = Product(120)
 print("Price:", product.price)
 
-product.price = 150
+product.price = 180
 print("Updated Price:", product.price)
 
 product.price = -50
-
 del product.price
